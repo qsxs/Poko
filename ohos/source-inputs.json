@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "upstream": {
+    "repository": "https://github.com/drewhamilton/Poko",
+    "tag": "0.23.1",
+    "commit": "7f2bb9beeea0b9590b27056a613d9fa42b20f068"
+  },
+  "sourceRoot": "../poko-annotations/src/commonMain/kotlin",
+  "sourceMembers": [
+    {
+      "member": "commonMain/dev/drewhamilton/poko/ArrayContentBased.kt",
+      "size": 345,
+      "sha256": "223e948eb642f5385099d55221afd39bcb95798fbb75d856cf1cd6d5e625214d"
+    },
+    {
+      "member": "commonMain/dev/drewhamilton/poko/Poko.kt",
+      "size": 4056,
+      "sha256": "187f4889b04abf897f62879bdd2294c9ac59c4743f20e29a79cdb97949c0e697"
+    },
+    {
+      "member": "commonMain/dev/drewhamilton/poko/optInAnnotations.kt",
+      "size": 868,
+      "sha256": "9307ee77f9987424b837b2b25a1181d1c307f7948d7775c4803da03a83859503"
+    }
+  ],
+  "sources": {
+    "path": "vendor/poko-annotations-0.23.1-sources.jar",
+    "size": 3261,
+    "sha256": "a9233c6d33713abe8583d654e29d3c91939699e2980eea4c0153d61719f68caa",
+    "url": "https://repo.maven.apache.org/maven2/dev/drewhamilton/poko/poko-annotations/0.23.1/poko-annotations-0.23.1-sources.jar"
+  },
+  "pom": {
+    "path": "vendor/poko-annotations-0.23.1.pom",
+    "size": 1838,
+    "sha256": "8fc6263c529ff9b1a23c44d2cba4863efcd59b6fcdc74253898a9b88b36542c7",
+    "url": "https://repo.maven.apache.org/maven2/dev/drewhamilton/poko/poko-annotations/0.23.1/poko-annotations-0.23.1.pom"
+  },
+  "module": {
+    "path": "vendor/poko-annotations-0.23.1.module",
+    "size": 43832,
+    "sha256": "e88c53baa10e483d5f0e727c2f2655a91486ff127346d126ff17d1199e71a969",
+    "url": "https://repo.maven.apache.org/maven2/dev/drewhamilton/poko/poko-annotations/0.23.1/poko-annotations-0.23.1.module"
+  },
+  "license": {
+    "path": "legal/LICENSE",
+    "size": 11357,
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "url": "https://raw.githubusercontent.com/drewhamilton/Poko/0.23.1/LICENSE"
+  },
+  "origin": "Source JAR and GMM also match fixed app Git blob fe48ee6140d9224adf56b4b09efcfdc468ae8aa0; the POM was fetched from Maven Central."
+}

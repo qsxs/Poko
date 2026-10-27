@@ -1,0 +1,1157 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.drewhamilton.poko",
+    "module": "poko-annotations",
+    "version": "0.23.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "poko-annotations-metadata-0.23.1.jar",
+          "url": "poko-annotations-0.23.1.jar",
+          "size": 3804,
+          "sha512": "86eeb83f1842623dfd417e4a245d4a565612dbe756eaf247e962c41afa082564cebf76c27d012c787bb4db035a4b89f544e102b3e780a65c01608b269bd44244",
+          "sha256": "b9b3145d01cb3acce87615bd626cf8a60018da3cdf2f39d86eb53ebbf16464fe",
+          "sha1": "3700a8b31f92d03995408e2af8edfa94720fad3c",
+          "md5": "cfeb0e82fd1b0b56d3f76da3613e0a34"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "poko-annotations-kotlin-0.23.1-sources.jar",
+          "url": "poko-annotations-0.23.1-sources.jar",
+          "size": 3261,
+          "sha512": "031f3ba0de4abfd8c9b389fd9a125ef65c286dcb21ac9548631f855400c16c9c07b23c4860c5ba97bf35c74d2cc99977eaf4c96df502c582721f2b301305ebf5",
+          "sha256": "a9233c6d33713abe8583d654e29d3c91939699e2980eea4c0153d61719f68caa",
+          "sha1": "fb23db9f0c1502f79e89037e3445bdb62332644e",
+          "md5": "c148d8d3bdcf910d268a89b54a5d48b7"
+        }
+      ]
+    },
+    {
+      "name": "androidNativeArm32ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "android_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../poko-annotations-androidnativearm32/0.23.1/poko-annotations-androidnativearm32-0.23.1.module",
+        "group": "dev.drewhamilton.poko",
+        "module": "poko-annotations-androidnativearm32",
+        "version": "0.23.1"
+      }
+    },
+    {
+      "name": "androidNativeArm32SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "android_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../poko-annotations-androidnativearm32/0.23.1/poko-annotations-androidnativearm32-0.23.1.module",
+        "group": "dev.drewhamilton.poko",
+        "module": "poko-annotations-androidnativearm32",
+        "version": "0.23.1"
+      }
+    },
+    {
+      "name": "androidNativeArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "android_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../poko-annotations-androidnativearm64/0.23.1/poko-annotations-androidnativearm64-0.23.1.module",
+        "group": "dev.drewhamilton.poko",
+        "module": "poko-annotations-androidnativearm64",
+        "version": "0.23.1"
+      }
+    },
+    {
+      "name": "androidNativeArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "android_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../poko-annotations-androidnativearm64/0.23.1/poko-annotations-androidnativearm64-0.23.1.module",
+        "group": "dev.drewhamilton.poko",
+        "module": "poko-annotations-androidnativearm64",
+        "version": "0.23.1"
+      }
+    },
+    {
+      "name": "androidNativeX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "android_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../poko-annotations-androidnativex64/0.23.1/poko-annotations-androidnativex64-0.23.1.module",
+        "group": "dev.drewhamilton.poko",
+        "module": "poko-annotations-androidnativex64",
+        "version": "0.23.1"
+      }
+    },
+    {
+      "name": "androidNativeX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "android_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../poko-annotations-androidnativex64/0.23.1/poko-annotations-androidnativex64-0.23.1.module",
+        "group": "dev.drewhamilton.poko",
+        "module": "poko-annotations-androidnativex64",
+        "version": "0.23.1"
+      }
+    },
+    {
+      "name": "androidNativeX86ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "android_x86",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../poko-annotations-androidnativex86/0.23.1/poko-annotations-androidnativex86-0.23.1.module",
+        "group": "dev.drewhamilton.poko",
+        "module": "poko-annotations-androidnativex86",
+        "version": "0.23.1"
+      }
+    },
+    {
+      "name": "androidNativeX86SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "android_x86",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../poko-annotations-androidnativex86/0.23.1/poko-annotations-androidnativex86-0.23.1.module",
+        "group": "dev.drewhamilton.poko",
+        "module": "poko-annotations-androidnativex86",
+        "version": "0.23.1"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../poko-annotations-iosarm64/0.23.1/poko-annotations-iosarm64-0.23.1.module",
+        "group": "dev.drewhamilton.poko",
+        "module": "poko-annotations-iosarm64",
+        "version": "0.23.1"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../poko-annotations-iosarm64/0.23.1/poko-annotations-iosarm64-0.23.1.module",
+        "group": "dev.drewhamilton.poko",
+        "module": "poko-annotations-iosarm64",
+        "version": "0.23.1"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../poko-annotations-iosarm64/0.23.1/poko-annotations-iosarm64-0.23.1.module",
+        "group": "dev.drewhamilton.poko",
+        "module": "poko-annotations-iosarm64",
+        "version": "0.23.1"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../poko-annotations-iossimulatorarm64/0.23.1/poko-annotations-iossimulatorarm64-0.23.1.module",
+        "group": "dev.drewhamilton.poko",
+        "module": "poko-annotations-iossimulatorarm64",
+        "version": "0.23.1"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../poko-annotations-iossimulatorarm64/0.23.1/poko-annotations-iossimulatorarm64-0.23.1.module",
+        "group": "dev.drewhamilton.poko",
+        "module": "poko-annotations-iossimulatorarm64",
+        "version": "0.23.1"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../poko-annotations-iossimulatorarm64/0.23.1/poko-annotations-iossimulatorarm64-0.23.1.module",
+        "group": "dev.drewhamilton.poko",
+        "module": "poko-annotations-iossimulatorarm64",
+        "version": "0.23.1"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../poko-annotations-iosx64/0.23.1/poko-annotations-iosx64-0.23.1.module",
+        "group": "dev.drewhamilton.poko",
+        "module": "poko-annotations-iosx64",
+        "version": "0.23.1"
+      }
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../poko-annotations-iosx64/0.23.1/poko-annotations-iosx64-0.23.1.module",
+        "group": "dev.drewhamilton.poko",
+        "module": "poko-annotations-iosx64",
+        "version": "0.23.1"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../poko-annotations-iosx64/0.23.1/poko-annotations-iosx64-0.23.1.module",
+        "group": "dev.drewhamilton.poko",
+        "module": "poko-annotations-iosx64",
+        "version": "0.23.1"
+      }
+    },
+    {
+      "name": "jsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../poko-annotations-js/0.23.1/poko-annotations-js-0.23.1.module",
+        "group": "dev.drewhamilton.poko",
+        "module": "poko-annotations-js",
+        "version": "0.23.1"
+      }
+    },
+    {
+      "name": "jsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../poko-annotations-js/0.23.1/poko-annotations-js-0.23.1.module",
+        "group": "dev.drewhamilton.poko",
+        "module": "poko-annotations-js",
+        "version": "0.23.1"
+      }
+    },
+    {
+      "name": "jsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "available-at": {
+        "url": "../../poko-annotations-js/0.23.1/poko-annotations-js-0.23.1.module",
+        "group": "dev.drewhamilton.poko",
+        "module": "poko-annotations-js",
+        "version": "0.23.1"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../poko-annotations-jvm/0.23.1/poko-annotations-jvm-0.23.1.module",
+        "group": "dev.drewhamilton.poko",
+        "module": "poko-annotations-jvm",
+        "version": "0.23.1"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../poko-annotations-jvm/0.23.1/poko-annotations-jvm-0.23.1.module",
+        "group": "dev.drewhamilton.poko",
+        "module": "poko-annotations-jvm",
+        "version": "0.23.1"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../poko-annotations-jvm/0.23.1/poko-annotations-jvm-0.23.1.module",
+        "group": "dev.drewhamilton.poko",
+        "module": "poko-annotations-jvm",
+        "version": "0.23.1"
+      }
+    },
+    {
+      "name": "linuxArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../poko-annotations-linuxarm64/0.23.1/poko-annotations-linuxarm64-0.23.1.module",
+        "group": "dev.drewhamilton.poko",
+        "module": "poko-annotations-linuxarm64",
+        "version": "0.23.1"
+      }
+    },
+    {
+      "name": "linuxArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../poko-annotations-linuxarm64/0.23.1/poko-annotations-linuxarm64-0.23.1.module",
+        "group": "dev.drewhamilton.poko",
+        "module": "poko-annotations-linuxarm64",
+        "version": "0.23.1"
+      }
+    },
+    {
+      "name": "linuxX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../poko-annotations-linuxx64/0.23.1/poko-annotations-linuxx64-0.23.1.module",
+        "group": "dev.drewhamilton.poko",
+        "module": "poko-annotations-linuxx64",
+        "version": "0.23.1"
+      }
+    },
+    {
+      "name": "linuxX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../poko-annotations-linuxx64/0.23.1/poko-annotations-linuxx64-0.23.1.module",
+        "group": "dev.drewhamilton.poko",
+        "module": "poko-annotations-linuxx64",
+        "version": "0.23.1"
+      }
+    },
+    {
+      "name": "macosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../poko-annotations-macosarm64/0.23.1/poko-annotations-macosarm64-0.23.1.module",
+        "group": "dev.drewhamilton.poko",
+        "module": "poko-annotations-macosarm64",
+        "version": "0.23.1"
+      }
+    },
+    {
+      "name": "macosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../poko-annotations-macosarm64/0.23.1/poko-annotations-macosarm64-0.23.1.module",
+        "group": "dev.drewhamilton.poko",
+        "module": "poko-annotations-macosarm64",
+        "version": "0.23.1"
+      }
+    },
+    {
+      "name": "macosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../poko-annotations-macosarm64/0.23.1/poko-annotations-macosarm64-0.23.1.module",
+        "group": "dev.drewhamilton.poko",
+        "module": "poko-annotations-macosarm64",
+        "version": "0.23.1"
+      }
+    },
+    {
+      "name": "macosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../poko-annotations-macosx64/0.23.1/poko-annotations-macosx64-0.23.1.module",
+        "group": "dev.drewhamilton.poko",
+        "module": "poko-annotations-macosx64",
+        "version": "0.23.1"
+      }
+    },
+    {
+      "name": "macosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../poko-annotations-macosx64/0.23.1/poko-annotations-macosx64-0.23.1.module",
+        "group": "dev.drewhamilton.poko",
+        "module": "poko-annotations-macosx64",
+        "version": "0.23.1"
+      }
+    },
+    {
+      "name": "macosX64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../poko-annotations-macosx64/0.23.1/poko-annotations-macosx64-0.23.1.module",
+        "group": "dev.drewhamilton.poko",
+        "module": "poko-annotations-macosx64",
+        "version": "0.23.1"
+      }
+    },
+    {
+      "name": "mingwX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../poko-annotations-mingwx64/0.23.1/poko-annotations-mingwx64-0.23.1.module",
+        "group": "dev.drewhamilton.poko",
+        "module": "poko-annotations-mingwx64",
+        "version": "0.23.1"
+      }
+    },
+    {
+      "name": "mingwX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "mingw_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../poko-annotations-mingwx64/0.23.1/poko-annotations-mingwx64-0.23.1.module",
+        "group": "dev.drewhamilton.poko",
+        "module": "poko-annotations-mingwx64",
+        "version": "0.23.1"
+      }
+    },
+    {
+      "name": "tvosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../poko-annotations-tvosarm64/0.23.1/poko-annotations-tvosarm64-0.23.1.module",
+        "group": "dev.drewhamilton.poko",
+        "module": "poko-annotations-tvosarm64",
+        "version": "0.23.1"
+      }
+    },
+    {
+      "name": "tvosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../poko-annotations-tvosarm64/0.23.1/poko-annotations-tvosarm64-0.23.1.module",
+        "group": "dev.drewhamilton.poko",
+        "module": "poko-annotations-tvosarm64",
+        "version": "0.23.1"
+      }
+    },
+    {
+      "name": "tvosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../poko-annotations-tvosarm64/0.23.1/poko-annotations-tvosarm64-0.23.1.module",
+        "group": "dev.drewhamilton.poko",
+        "module": "poko-annotations-tvosarm64",
+        "version": "0.23.1"
+      }
+    },
+    {
+      "name": "tvosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../poko-annotations-tvossimulatorarm64/0.23.1/poko-annotations-tvossimulatorarm64-0.23.1.module",
+        "group": "dev.drewhamilton.poko",
+        "module": "poko-annotations-tvossimulatorarm64",
+        "version": "0.23.1"
+      }
+    },
+    {
+      "name": "tvosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../poko-annotations-tvossimulatorarm64/0.23.1/poko-annotations-tvossimulatorarm64-0.23.1.module",
+        "group": "dev.drewhamilton.poko",
+        "module": "poko-annotations-tvossimulatorarm64",
+        "version": "0.23.1"
+      }
+    },
+    {
+      "name": "tvosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../poko-annotations-tvossimulatorarm64/0.23.1/poko-annotations-tvossimulatorarm64-0.23.1.module",
+        "group": "dev.drewhamilton.poko",
+        "module": "poko-annotations-tvossimulatorarm64",
+        "version": "0.23.1"
+      }
+    },
+    {
+      "name": "tvosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../poko-annotations-tvosx64/0.23.1/poko-annotations-tvosx64-0.23.1.module",
+        "group": "dev.drewhamilton.poko",
+        "module": "poko-annotations-tvosx64",
+        "version": "0.23.1"
+      }
+    },
+    {
+      "name": "tvosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../poko-annotations-tvosx64/0.23.1/poko-annotations-tvosx64-0.23.1.module",
+        "group": "dev.drewhamilton.poko",
+        "module": "poko-annotations-tvosx64",
+        "version": "0.23.1"
+      }
+    },
+    {
+      "name": "tvosX64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "tvos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../poko-annotations-tvosx64/0.23.1/poko-annotations-tvosx64-0.23.1.module",
+        "group": "dev.drewhamilton.poko",
+        "module": "poko-annotations-tvosx64",
+        "version": "0.23.1"
+      }
+    },
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../poko-annotations-wasm-js/0.23.1/poko-annotations-wasm-js-0.23.1.module",
+        "group": "dev.drewhamilton.poko",
+        "module": "poko-annotations-wasm-js",
+        "version": "0.23.1"
+      }
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../poko-annotations-wasm-js/0.23.1/poko-annotations-wasm-js-0.23.1.module",
+        "group": "dev.drewhamilton.poko",
+        "module": "poko-annotations-wasm-js",
+        "version": "0.23.1"
+      }
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "available-at": {
+        "url": "../../poko-annotations-wasm-js/0.23.1/poko-annotations-wasm-js-0.23.1.module",
+        "group": "dev.drewhamilton.poko",
+        "module": "poko-annotations-wasm-js",
+        "version": "0.23.1"
+      }
+    },
+    {
+      "name": "wasmWasiApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "wasi"
+      },
+      "available-at": {
+        "url": "../../poko-annotations-wasm-wasi/0.23.1/poko-annotations-wasm-wasi-0.23.1.module",
+        "group": "dev.drewhamilton.poko",
+        "module": "poko-annotations-wasm-wasi",
+        "version": "0.23.1"
+      }
+    },
+    {
+      "name": "wasmWasiRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "wasi"
+      },
+      "available-at": {
+        "url": "../../poko-annotations-wasm-wasi/0.23.1/poko-annotations-wasm-wasi-0.23.1.module",
+        "group": "dev.drewhamilton.poko",
+        "module": "poko-annotations-wasm-wasi",
+        "version": "0.23.1"
+      }
+    },
+    {
+      "name": "wasmWasiSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "wasi"
+      },
+      "available-at": {
+        "url": "../../poko-annotations-wasm-wasi/0.23.1/poko-annotations-wasm-wasi-0.23.1.module",
+        "group": "dev.drewhamilton.poko",
+        "module": "poko-annotations-wasm-wasi",
+        "version": "0.23.1"
+      }
+    },
+    {
+      "name": "watchosArm32ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../poko-annotations-watchosarm32/0.23.1/poko-annotations-watchosarm32-0.23.1.module",
+        "group": "dev.drewhamilton.poko",
+        "module": "poko-annotations-watchosarm32",
+        "version": "0.23.1"
+      }
+    },
+    {
+      "name": "watchosArm32SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../poko-annotations-watchosarm32/0.23.1/poko-annotations-watchosarm32-0.23.1.module",
+        "group": "dev.drewhamilton.poko",
+        "module": "poko-annotations-watchosarm32",
+        "version": "0.23.1"
+      }
+    },
+    {
+      "name": "watchosArm32MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_arm32",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../poko-annotations-watchosarm32/0.23.1/poko-annotations-watchosarm32-0.23.1.module",
+        "group": "dev.drewhamilton.poko",
+        "module": "poko-annotations-watchosarm32",
+        "version": "0.23.1"
+      }
+    },
+    {
+      "name": "watchosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../poko-annotations-watchosarm64/0.23.1/poko-annotations-watchosarm64-0.23.1.module",
+        "group": "dev.drewhamilton.poko",
+        "module": "poko-annotations-watchosarm64",
+        "version": "0.23.1"
+      }
+    },
+    {
+      "name": "watchosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../poko-annotations-watchosarm64/0.23.1/poko-annotations-watchosarm64-0.23.1.module",
+        "group": "dev.drewhamilton.poko",
+        "module": "poko-annotations-watchosarm64",
+        "version": "0.23.1"
+      }
+    },
+    {
+      "name": "watchosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../poko-annotations-watchosarm64/0.23.1/poko-annotations-watchosarm64-0.23.1.module",
+        "group": "dev.drewhamilton.poko",
+        "module": "poko-annotations-watchosarm64",
+        "version": "0.23.1"
+      }
+    },
+    {
+      "name": "watchosDeviceArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_device_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../poko-annotations-watchosdevicearm64/0.23.1/poko-annotations-watchosdevicearm64-0.23.1.module",
+        "group": "dev.drewhamilton.poko",
+        "module": "poko-annotations-watchosdevicearm64",
+        "version": "0.23.1"
+      }
+    },
+    {
+      "name": "watchosDeviceArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_device_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../poko-annotations-watchosdevicearm64/0.23.1/poko-annotations-watchosdevicearm64-0.23.1.module",
+        "group": "dev.drewhamilton.poko",
+        "module": "poko-annotations-watchosdevicearm64",
+        "version": "0.23.1"
+      }
+    },
+    {
+      "name": "watchosDeviceArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_device_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../poko-annotations-watchosdevicearm64/0.23.1/poko-annotations-watchosdevicearm64-0.23.1.module",
+        "group": "dev.drewhamilton.poko",
+        "module": "poko-annotations-watchosdevicearm64",
+        "version": "0.23.1"
+      }
+    },
+    {
+      "name": "watchosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../poko-annotations-watchossimulatorarm64/0.23.1/poko-annotations-watchossimulatorarm64-0.23.1.module",
+        "group": "dev.drewhamilton.poko",
+        "module": "poko-annotations-watchossimulatorarm64",
+        "version": "0.23.1"
+      }
+    },
+    {
+      "name": "watchosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../poko-annotations-watchossimulatorarm64/0.23.1/poko-annotations-watchossimulatorarm64-0.23.1.module",
+        "group": "dev.drewhamilton.poko",
+        "module": "poko-annotations-watchossimulatorarm64",
+        "version": "0.23.1"
+      }
+    },
+    {
+      "name": "watchosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../poko-annotations-watchossimulatorarm64/0.23.1/poko-annotations-watchossimulatorarm64-0.23.1.module",
+        "group": "dev.drewhamilton.poko",
+        "module": "poko-annotations-watchossimulatorarm64",
+        "version": "0.23.1"
+      }
+    },
+    {
+      "name": "watchosX64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "watchos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../poko-annotations-watchosx64/0.23.1/poko-annotations-watchosx64-0.23.1.module",
+        "group": "dev.drewhamilton.poko",
+        "module": "poko-annotations-watchosx64",
+        "version": "0.23.1"
+      }
+    },
+    {
+      "name": "watchosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "watchos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../poko-annotations-watchosx64/0.23.1/poko-annotations-watchosx64-0.23.1.module",
+        "group": "dev.drewhamilton.poko",
+        "module": "poko-annotations-watchosx64",
+        "version": "0.23.1"
+      }
+    },
+    {
+      "name": "watchosX64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "watchos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../poko-annotations-watchosx64/0.23.1/poko-annotations-watchosx64-0.23.1.module",
+        "group": "dev.drewhamilton.poko",
+        "module": "poko-annotations-watchosx64",
+        "version": "0.23.1"
+      }
+    }
+  ]
+}
